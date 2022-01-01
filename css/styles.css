@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+}
+a {
+    color: var( --secondary );
+}
+a:hover {
+    color: var( --white );
+}
+.navbar-brand {
+    color: yellow !important;
+    font-weight: bold;
+}
+img {
+    object-fit: cover;
+}
+.projects {
+    display: grid;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    grid-template-areas:
+        'a b'
+        'c c';
+}
+.project {
+    border: 1px solid var( --secondary );
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #333;
+}
+.project-a {
+    grid-area: a;
+}
+.project-b {
+    grid-area: b;
+}
+.project-c {
+    grid-area: c;
+}
