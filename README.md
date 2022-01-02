@@ -6,4 +6,4 @@ To run this project, download it into your computer and open the index.html file
 
 Future iterations of this project will contain more projects and details about myself.
 
-This project is licensed using the MIT license,
+This project is licensed using the MIT license.
